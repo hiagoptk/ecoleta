@@ -23,7 +23,7 @@ interface IBGECityResponse {
   nome: string;
 }
 
-const CreatePoint = () => {
+  const CreatePoint = () => {
   const [items, setItems] = useState<Items[]>([]);
   const [ufs, setUfs] = useState<string[]>([]);
   const [cities, setCities] = useState<string[]>([]);
